@@ -15,5 +15,6 @@ spec:
       single:
         upstream:
           name: 'httpbin-httpbin-8000'
+          namespace: gloo-system
     options:
       prefixRewrite: '/'
